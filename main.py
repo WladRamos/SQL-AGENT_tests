@@ -57,6 +57,8 @@ system_template = """Você é responsável por buscar no banco de dados as infor
 
 Você tem acesso às seguintes do banco de dados: {tabelas}
 
+Retorne apenas o conteúdo do banco de dados que está relacionado com a requisição do usuário, não crie novas informações. Garanta que todas as linhas e colunas relacionadas estarão na sua resposta.
+
 Se a pergunta não parecer relacionada ao banco de dados, apenas retorne "Dados não disponíveis" como resposta.
 """
 # Crie um template de prompt usando o sistema personalizado
